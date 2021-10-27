@@ -1,11 +1,11 @@
 import React from "react";
 import SideBarRowComponent from "./SideBarRowComponent";
 import OndemandVideoIcon from "@material-ui/icons/OndemandVideo";
-import { FcBarChart } from "react-icons/fc";
+import { FcBarChart, FcCustomerSupport } from "react-icons/fc";
 import { MdGroups, MdExpandMore } from "react-icons/md";
 import { AiFillShop } from "react-icons/ai";
 import { FaUserFriends, FaFacebookMessenger } from "react-icons/fa";
-
+import { RiHandHeartFill } from "react-icons/ri";
 import "../Style/SideBarRow.css";
 
 export default function SideBarRow() {
@@ -40,6 +40,18 @@ export default function SideBarRow() {
       <SideBarRowComponent
         Icon={<FcBarChart style={{ fontSize: "27" }} />}
         title="Ads Manager"
+      />
+      <SideBarRowComponent
+        Icon={<RiHandHeartFill style={{ fontSize: "27", color: "#F2C35F" }} />}
+        title="Community Help"
+      />
+      <SideBarRowComponent
+        Icon={
+          <FcCustomerSupport
+            style={{ fontSize: "27" /* , color: "#4267B2" */ }}
+          />
+        }
+        title="Covid-19 Info Center"
       />
       <SideBarRowComponent
         Icon={<MdExpandMore style={{ fontSize: "23" }} />}

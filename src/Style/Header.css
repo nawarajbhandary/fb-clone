@@ -11,7 +11,6 @@
   justify-content: space-between;
   background-color: #fff;
   position: sticky;
-  top: 0;
   box-shadow: 6px 5px 8px -9px rgba(0, 0, 0, 0.75);
   z-index: 100;
 }
@@ -50,6 +49,7 @@
 }
 .header-option:hover .MuiSvgIcon-root {
   color: #2e81f4;
+  border-bottom: 5px solid #eff2f5;
 }
 .header-option:hover {
   background-color: #eff2f5;

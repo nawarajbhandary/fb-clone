@@ -3,7 +3,6 @@
   align-items: center;
   padding: 10px 5px;
   line-height: 2px;
-  flex: 1;
   cursor: pointer;
 }
 .sidebar__row:hover {
