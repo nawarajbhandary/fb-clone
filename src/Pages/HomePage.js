@@ -3,6 +3,7 @@ import "../Style/HomePage.css";
 import Header from "../Component/Header";
 import SideBarRow from "../Component/SideBarRow.js";
 import StoryReel from "../Component/StoryReel.js";
+import MessageSender from "../Component/MessageSender";
 
 function HomePage() {
   return (
@@ -10,7 +11,12 @@ function HomePage() {
       <Header />
       <div className="home__body">
         <SideBarRow />
-        <StoryReel />
+        <div className="home__sender">
+          <StoryReel />
+          <div className="home__postfeed">
+            <MessageSender />
+          </div>
+        </div>
       </div>
     </div>
   );
