@@ -6,15 +6,10 @@ import StoryReel from "../Component/StoryReel.js";
 
 function HomePage() {
   return (
-    <div className="home__body">
-      <div className="home__header">
-        <Header />
-        <br />
-      </div>
-      <div className="home__sidebar">
+    <div className="homepage">
+      <Header />
+      <div className="home__body">
         <SideBarRow />
-      </div>
-      <div className="home__storyreel">
         <StoryReel />
       </div>
     </div>

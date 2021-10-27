@@ -7,4 +7,5 @@
   overflow: hidden;
   word-break: break-all;
   width: 20%;
+  box-shadow: 7px 0px 4px -7px rgba(133, 128, 128, 0.75);
 }

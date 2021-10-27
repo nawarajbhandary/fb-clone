@@ -14,3 +14,12 @@
   flex-direction: row;
 }
  */
+.home__body {
+  display: flex;
+  flex: 1;
+  margin-top: 10px;
+}
+.home {
+  background-color: #cccc;
+  height: 100%;
+}

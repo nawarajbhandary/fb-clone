@@ -30,6 +30,11 @@ function StoryReel() {
         title="Sanam Tamang"
         image="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/241977598_2945574445665795_4665774393882582642_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=gayy9OfhffMAX97Ylck&_nc_ht=scontent.fktm9-2.fna&oh=5b3e44012ead0b217520c25643ded357&oe=619CD08B"
       />
+      <StoryElement
+        src="https://avatars.githubusercontent.com/u/26732783?v=4"
+        title="Tilak KC"
+        image="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/127792150_2742823959305274_4133972326204320240_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=qdNS0CWTrgkAX_dgHaT&_nc_ht=scontent.fktm9-2.fna&oh=75e91fe072116860779047300b0bbaec&oe=619E81F1"
+      />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 .story__container {
   display: flex;
+  margin-left: 10px;
 }
 .story {
   position: Relative;

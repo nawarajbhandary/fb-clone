@@ -1,6 +1,6 @@
 import React from "react";
 import "../Style/Login.css";
-import { useHistory } from "react-router";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -13,7 +13,9 @@ function Login() {
         <br />
         <input type="text" placeholder="Email Address or Phone Number" /> <br />
         <input type="password" placeholder="Password" />
-        <button className="login-btn">Log In</button>
+        <Link to="/index" className="login-btn">
+          Log In
+        </Link>
         <p>forgotten password?</p>
         <hr width="90%" />
         <button className="createnew-btn">Create New Account</button>
