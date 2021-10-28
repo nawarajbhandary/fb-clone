@@ -23,11 +23,16 @@
   background-color: #cccc;
   height: 100%;
 }
-.home__sender {
+.home__middle {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
 }
 .home__postfeed {
   margin-top: 10px;
+}
+.home__feed {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
