@@ -4,7 +4,7 @@
   flex-direction: column;
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
-  box-shadow: -3px 5px 7px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -3px 5px 7px -8px rgba(0, 0, 0, 0.75);
 }
 .messagesender__top {
   display: flex;
@@ -13,6 +13,9 @@
 }
 .messagesender__top > input {
   margin-left: 10px;
+}
+.messagesender__top > input ::placeholder -ms-input-placeholder {
+  font-size: 30px;
 }
 .messagesender__input {
   border: none;

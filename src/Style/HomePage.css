@@ -14,10 +14,11 @@
   flex-direction: row;
 }
  */
+.homepage {
+  position: relative;
+}
 .home__body {
   display: flex;
-
-  margin-top: 10px;
 }
 .home {
   background-color: #cccc;
@@ -35,4 +36,9 @@
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+}
+.home__header {
+  position: sticky;
+  width: 100%;
+  display: block;
 }

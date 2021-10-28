@@ -10,7 +10,6 @@
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-  position: sticky;
   box-shadow: 6px 5px 8px -9px rgba(0, 0, 0, 0.75);
   z-index: 100;
 }
@@ -55,10 +54,9 @@
   background-color: #eff2f5;
   border-radius: 10px;
   align-items: center;
-  padding: 10px 30px;
+  padding: 0px 30px;
 }
 .active:hover {
-  border-bottom: 10px solid red;
   height: 100px;
   width: 200px;
 }

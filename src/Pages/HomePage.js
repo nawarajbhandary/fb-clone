@@ -9,7 +9,9 @@ import Feed from "../Component/Feed";
 function HomePage() {
   return (
     <div className="homepage">
-      <Header />
+      <div className="home__header">
+        <Header />
+      </div>
       <div className="home__body">
         <SideBarRow />
         <div className="home__middle">

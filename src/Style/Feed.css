@@ -4,13 +4,22 @@
   color: rgb(46, 43, 43);
 }
 
+.feed__single {
+  padding: 5px;
+  box-shadow: 5px 8px 7px -8px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+
 .feed__visibility__time {
   display: flex;
   margin-top: 5px;
 }
 
-.feed__visibility__time > h6 {
+.feed__visibility__time > h5 {
   margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
 }
 .feed__top__right {
   margin: 10px;
@@ -20,7 +29,7 @@
   margin: 5px 10px;
 }
 .feed__caption > h4 {
-  font-weight: 450;
+  font-weight: 500;
   font-size: large;
   color: rgb(46, 43, 43);
 }
@@ -29,20 +38,29 @@
   display: flex;
   cursor: pointer;
   flex-direction: row;
+  vertical-align: middle;
 }
-feed__like__comment__share:hover {
-  background-color: rgb(26, 26, 208);
+.feed__like__comment__share h3 {
+  font-family: sans-serif;
+  display: flex;
+  font-weight: 550;
+  margin-left: 5px;
+  justify-self: center;
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+.feed__like__comment__share:hover {
   border-radius: 10px;
 }
+
 .feed__like__comment__share__container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 5px 10px;
-  border: 1px solid gray;
-}
-hr {
-  margin-left: 20px;
-  border: small solid rgb(196, 189, 189);
-  margin-bottom: 20px;
+  justify-content: space-between;
+  padding: 5px 50px;
+  padding-top: 10px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  box-shadow: -2px -4px 4px -4px rgba(0, 0, 0, 0.75);
 }

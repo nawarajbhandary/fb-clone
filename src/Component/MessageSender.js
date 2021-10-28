@@ -16,7 +16,7 @@ function MessageSender() {
         <form>
           <input
             className="messagesender__input"
-            placeholder="what's on your mind, Nawaraj ?"
+            placeholder="What's on your mind, Nawaraj ?"
           />
         </form>
       </div>
@@ -27,11 +27,11 @@ function MessageSender() {
         </div>
         <div className="messagesender__option">
           <PhotoLibraryIcon style={{ color: "green" }} />
-          <h3>Live Video</h3>
+          <h3>Photo/Video</h3>
         </div>
         <div className="messagesender__option">
           <InsertEmoticonIcon style={{ color: "orange" }} />
-          <h3>Live Video</h3>
+          <h3>Feeling/Activity</h3>
         </div>
       </div>
     </div>
