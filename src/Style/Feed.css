@@ -1,0 +1,48 @@
+.feed__top {
+  display: flex;
+  align-items: center;
+  color: rgb(46, 43, 43);
+}
+
+.feed__visibility__time {
+  display: flex;
+  margin-top: 5px;
+}
+
+.feed__visibility__time > h6 {
+  margin-right: 10px;
+}
+.feed__top__right {
+  margin: 10px;
+  align-self: center;
+}
+.feed__caption {
+  margin: 5px 10px;
+}
+.feed__caption > h4 {
+  font-weight: 450;
+  font-size: large;
+  color: rgb(46, 43, 43);
+}
+
+.feed__like__comment__share {
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+}
+feed__like__comment__share:hover {
+  background-color: rgb(26, 26, 208);
+  border-radius: 10px;
+}
+.feed__like__comment__share__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px 10px;
+  border: 1px solid gray;
+}
+hr {
+  margin-left: 20px;
+  border: small solid rgb(196, 189, 189);
+  margin-bottom: 20px;
+}

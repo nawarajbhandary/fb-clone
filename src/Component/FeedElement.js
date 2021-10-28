@@ -22,22 +22,37 @@ function FeedElement({
         <div className="feed__top__right">
           <h3>{username}</h3>
           <div className="feed__visibility__time">
-            {visibilityIcon}
             <h6>{time} </h6>
+            {visibilityIcon}
           </div>
         </div>
       </div>
       <div className="feed__caption__image">
-        <div className="feed__caption">{caption}</div>
+        <div className="feed__caption">
+          <h4>{caption}</h4>
+        </div>
         <div className="feed__image">
           <img src={image} alt="caption" width="825px" height="800px" />
         </div>
       </div>
-      <div className="feed__like__comment__share">
-        <h4>
-          <BiLike /> <BiComment /> <BiShare />
-        </h4>
+      <div className="feed__like__comment__share__container">
+        <div className="feed__like__comment__share">
+          <h4>
+            <BiLike style={{ fontSize: "30px" }} />
+          </h4>
+        </div>
+        <div className="feed__like__comment__share">
+          <h4>
+            <BiComment style={{ fontSize: "30px" }} />
+          </h4>
+        </div>
+        <div className="feed__like__comment__share">
+          <h4>
+            <BiShare style={{ fontSize: "30px" }} />
+          </h4>
+        </div>
       </div>
+      <hr width="95%" />
     </div>
   );
 }
