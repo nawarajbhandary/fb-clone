@@ -37,22 +37,16 @@ function FeedElement({
       </div>
       <div className="feed__like__comment__share__container">
         <div className="feed__like__comment__share">
-          <h4>
-            <BiLike style={{ fontSize: "35px" }} />{" "}
-            <h3 className="like__text">Like</h3>
-          </h4>
+          <BiLike style={{ fontSize: "35px" }} />{" "}
+          <h3 className="like__text">Like</h3>
         </div>
         <div className="feed__like__comment__share">
-          <h4>
-            <BiComment style={{ fontSize: "35px" }} />{" "}
-            <h3 className="like__text">Comment</h3>
-          </h4>
+          <BiComment style={{ fontSize: "35px" }} />{" "}
+          <h3 className="like__text">Comment</h3>
         </div>
         <div className="feed__like__comment__share">
-          <h4>
-            <BiShare style={{ fontSize: "35px" }} />{" "}
-            <h3 className="like__text">Share</h3>
-          </h4>
+          <BiShare style={{ fontSize: "35px" }} />{" "}
+          <h3 className="like__text">Share</h3>
         </div>
       </div>
     </div>

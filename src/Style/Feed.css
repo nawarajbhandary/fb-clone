@@ -6,8 +6,9 @@
 
 .feed__single {
   padding: 5px;
-  box-shadow: 5px 8px 7px -8px rgba(0, 0, 0, 0.75);
-  border-radius: 20px;
+  box-shadow: -1px 2px 2px 2px rgb(220, 211, 211);
+  border-radius: 6px;
+  margin-bottom: 20px;
 }
 
 .feed__visibility__time {
@@ -38,17 +39,17 @@
   display: flex;
   cursor: pointer;
   flex-direction: row;
-  vertical-align: middle;
 }
-.feed__like__comment__share h3 {
-  font-family: sans-serif;
-  display: flex;
-  font-weight: 550;
-  margin-left: 5px;
-  justify-self: center;
+.feed__like__comment__share > h3 {
+  margin: 0;
+  padding: 0;
   display: inline-block;
-  margin-bottom: 5px;
-  vertical-align: middle;
+  font-weight: 500;
+  font-size: 18 px;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: rgb(34, 32, 32);
+  display: flex;
 }
 .feed__like__comment__share:hover {
   border-radius: 10px;
@@ -62,5 +63,5 @@
   padding-top: 10px;
   border-radius: 20px;
   margin-bottom: 5px;
-  box-shadow: -2px -4px 4px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px -4px 4px -7px rgba(0, 0, 0, 0.75);
 }
