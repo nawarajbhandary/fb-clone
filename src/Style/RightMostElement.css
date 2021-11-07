@@ -32,6 +32,7 @@ hr {
 }
 .page__container {
   margin-top: 30px;
+  margin-left: 10px;
 }
 .page__container > hr {
   margin-left: 5px;
@@ -78,4 +79,52 @@ hr {
   color: gray;
   font-weight: 650;
   font-size: 1rem;
+}
+.birthday__top__left {
+  display: flex;
+}
+.birthday__top__left > h5 {
+  display: inline-block;
+  margin-left: 7px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 600;
+}
+.contact__container {
+  padding-left: 15px;
+  margin-top: -10px;
+}
+.contact__header {
+  display: flex;
+  flex-flow: row;
+  color: #65676b;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.contact__header__left > h3 {
+  display: inline-block;
+  font-weight: 650;
+}
+.contact__online {
+  display: flex;
+  padding: 5px;
+}
+.contact__online:hover {
+  border-radius: 10px;
+  background-color: #dce1eb;
+  cursor: pointer;
+  transition: 2ms ease-in-out;
+}
+
+.contact__online > h4 {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 650;
+  color: #27282b;
+}
+.contact__online__avatar__active {
+  display: inline;
+}
+.contact__online__avatar {
+  position: relative;
 }
