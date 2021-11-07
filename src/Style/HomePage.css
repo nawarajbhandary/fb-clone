@@ -28,6 +28,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 10px;
+  width: 59%;
 }
 .home__postfeed {
   margin-top: 10px;
@@ -39,6 +40,12 @@
 }
 .home__header {
   position: sticky;
-  width: 100%;
-  display: block;
+}
+.home__sidebar {
+  width: 20%;
+}
+.home__right {
+  display: flex;
+  flex-direction: column;
+  width: 19%;
 }

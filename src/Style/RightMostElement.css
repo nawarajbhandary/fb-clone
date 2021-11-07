@@ -1,0 +1,81 @@
+.right__container {
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.birthday {
+  margin-top: 15px;
+  height: 75px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 5px 12px -7px rgba(0, 0, 0, 0.75);
+}
+.birthday__top {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+.birthday__bottom h4 {
+  font-weight: 450;
+  text-align: justify;
+  margin: 2px;
+  line-break: loose;
+}
+hr {
+  margin: 25px 0px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(167, 163, 163);
+}
+.page__container {
+  margin-top: 30px;
+}
+.page__container > hr {
+  margin-left: 5px;
+  margin: 15px 0;
+}
+.page__header > h3 {
+  display: inline-block;
+  color: gray;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+}
+.page__body {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+.page__body__top {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+.page__body-h4 {
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  color: rgb(65, 63, 63);
+}
+.page__body__middle {
+  margin-top: 5px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.page__body__middle :hover {
+  cursor: pointer;
+}
+.page__body__middle-h4 {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: gray;
+  font-weight: 650;
+  font-size: 1rem;
+}

@@ -11,6 +11,7 @@
   justify-content: space-between;
   background-color: #fff;
   box-shadow: 6px 5px 8px -9px rgba(0, 0, 0, 0.75);
+  width: 100%;
   z-index: 100;
 }
 .header__left > img {

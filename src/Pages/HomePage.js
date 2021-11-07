@@ -5,6 +5,7 @@ import SideBarRow from "../Component/SideBarRow.js";
 import StoryReel from "../Component/StoryReel.js";
 import MessageSender from "../Component/MessageSender";
 import Feed from "../Component/Feed";
+import RightMostElement from "../Component/RightMostElement";
 
 function HomePage() {
   return (
@@ -13,7 +14,9 @@ function HomePage() {
         <Header />
       </div>
       <div className="home__body">
-        <SideBarRow />
+        <div className="home__sidebar">
+          <SideBarRow />
+        </div>
         <div className="home__middle">
           <StoryReel />
           <div className="home__postfeed">
@@ -22,6 +25,9 @@ function HomePage() {
           <div className="home__feed">
             <Feed />
           </div>
+        </div>
+        <div className="home__right">
+          <RightMostElement />
         </div>
       </div>
     </div>

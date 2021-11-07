@@ -3,6 +3,9 @@
   align-items: center;
   color: rgb(46, 43, 43);
 }
+.feed {
+  margin: 2px 5px;
+}
 
 .feed__single {
   padding: 5px;
