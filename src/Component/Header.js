@@ -6,11 +6,11 @@ import HomeIcon from "@material-ui/icons/Home";
 import AddIcon from "@material-ui/icons/Add";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import FlagIcon from "@material-ui/icons/Flag";
-import SubscriptionsOutlinedIcon from "@material-ui/icons/SubscriptionsOutlined";
 import StorefrontOutlined from "@material-ui/icons/StorefrontOutlined";
 import SupervisedUserCircleIcon from "@material-ui/icons/SupervisedUserCircle";
 import { FaFacebookMessenger } from "react-icons/fa";
+import PeopleAltOutlinedIcon from "@material-ui/icons/PeopleAltOutlined";
+import OndemandVideoOutlinedIcon from "@material-ui/icons/OndemandVideoOutlined";
 
 function Header() {
   return (
@@ -31,10 +31,10 @@ function Header() {
           <HomeIcon fontSize="large" />
         </div>
         <div className="header-option header-option--active">
-          <FlagIcon fontSize="large" />
+          <PeopleAltOutlinedIcon fontSize="large" />
         </div>
         <div className="header-option header-option--active">
-          <SubscriptionsOutlinedIcon fontSize="large" />
+          <OndemandVideoOutlinedIcon fontSize="large" />
         </div>
         <div className="header-option header-option--active">
           <StorefrontOutlined fontSize="large" />
