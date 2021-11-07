@@ -90,70 +90,70 @@ function Contacts() {
             src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/228280349_3063647310514457_8813709883619372821_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QORMQEs1uoAAX_bgFqi&_nc_ht=scontent.fktm9-2.fna&oh=7b22e2ba27f2655a63aeb2429159669c&oe=619A7CC8"
             style={{ height: "25px", width: "25px" }}
           />{" "}
-          <h4>Nawaraj Bhandari</h4>
+          <h4>Mukesh Khadka</h4>
         </div>
         <div className="contact__online">
           <Avatar
             src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/228280349_3063647310514457_8813709883619372821_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QORMQEs1uoAAX_bgFqi&_nc_ht=scontent.fktm9-2.fna&oh=7b22e2ba27f2655a63aeb2429159669c&oe=619A7CC8"
             style={{ height: "25px", width: "25px" }}
           />{" "}
-          <h4>Nawaraj Bhandari</h4>
+          <h4>Niraj Prasad Bhatt</h4>
         </div>
         <div className="contact__online">
           <Avatar
             src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/228280349_3063647310514457_8813709883619372821_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QORMQEs1uoAAX_bgFqi&_nc_ht=scontent.fktm9-2.fna&oh=7b22e2ba27f2655a63aeb2429159669c&oe=619A7CC8"
             style={{ height: "25px", width: "25px" }}
           />{" "}
-          <h4>Nawaraj Bhandari</h4>
+          <h4>Bishu Thapa</h4>
         </div>
         <div className="contact__online">
           <Avatar
             src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/228280349_3063647310514457_8813709883619372821_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QORMQEs1uoAAX_bgFqi&_nc_ht=scontent.fktm9-2.fna&oh=7b22e2ba27f2655a63aeb2429159669c&oe=619A7CC8"
             style={{ height: "25px", width: "25px" }}
           />{" "}
-          <h4>Nawaraj Bhandari</h4>
+          <h4>Raj Kumar Khadka</h4>
         </div>
         <div className="contact__online">
           <Avatar
             src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/228280349_3063647310514457_8813709883619372821_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QORMQEs1uoAAX_bgFqi&_nc_ht=scontent.fktm9-2.fna&oh=7b22e2ba27f2655a63aeb2429159669c&oe=619A7CC8"
             style={{ height: "25px", width: "25px" }}
           />{" "}
-          <h4>Nawaraj Bhandari</h4>
+          <h4>राजन कुमार भण्डारी</h4>
         </div>
         <div className="contact__online">
           <Avatar
             src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/228280349_3063647310514457_8813709883619372821_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QORMQEs1uoAAX_bgFqi&_nc_ht=scontent.fktm9-2.fna&oh=7b22e2ba27f2655a63aeb2429159669c&oe=619A7CC8"
             style={{ height: "25px", width: "25px" }}
           />{" "}
-          <h4>Nawaraj Bhandari</h4>
+          <h4>Pooja Cafle</h4>
         </div>
         <div className="contact__online">
           <Avatar
             src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/228280349_3063647310514457_8813709883619372821_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QORMQEs1uoAAX_bgFqi&_nc_ht=scontent.fktm9-2.fna&oh=7b22e2ba27f2655a63aeb2429159669c&oe=619A7CC8"
             style={{ height: "25px", width: "25px" }}
           />{" "}
-          <h4>Nawaraj Bhandari</h4>
+          <h4>Dadhip Bhattarai</h4>
         </div>
         <div className="contact__online">
           <Avatar
             src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/228280349_3063647310514457_8813709883619372821_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QORMQEs1uoAAX_bgFqi&_nc_ht=scontent.fktm9-2.fna&oh=7b22e2ba27f2655a63aeb2429159669c&oe=619A7CC8"
             style={{ height: "25px", width: "25px" }}
           />{" "}
-          <h4>Nawaraj Bhandari</h4>
+          <h4>Shrawan Xettry</h4>
         </div>
         <div className="contact__online">
           <Avatar
             src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/228280349_3063647310514457_8813709883619372821_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QORMQEs1uoAAX_bgFqi&_nc_ht=scontent.fktm9-2.fna&oh=7b22e2ba27f2655a63aeb2429159669c&oe=619A7CC8"
             style={{ height: "25px", width: "25px" }}
           />{" "}
-          <h4>Nawaraj Bhandari</h4>
+          <h4>Roshan Khatri</h4>
         </div>
         <div className="contact__online">
           <Avatar
             src="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/228280349_3063647310514457_8813709883619372821_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QORMQEs1uoAAX_bgFqi&_nc_ht=scontent.fktm9-2.fna&oh=7b22e2ba27f2655a63aeb2429159669c&oe=619A7CC8"
             style={{ height: "25px", width: "25px" }}
           />{" "}
-          <h4>Nawaraj Bhandari</h4>
+          <h4>PamMa Geeree</h4>
         </div>
       </div>
     </div>

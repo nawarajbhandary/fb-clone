@@ -121,6 +121,7 @@ hr {
   margin-left: 10px;
   font-weight: 650;
   color: #27282b;
+  word-spacing: 2px;
 }
 .contact__online__avatar__active {
   display: inline;
