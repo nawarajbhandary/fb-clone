@@ -20,8 +20,8 @@ function Feed() {
           username="Ramesh Syangtan"
           visibilityIcon={<MdOutlinePublic />}
           time="48 m ."
-          caption="Thanks, Upwork
-          #toprated #upworksuccess #yay"
+          caption="Join CMAT at Shastra
+          #BestAtBhaktapur"
           image={feed1}
         />
       </div>
@@ -31,7 +31,7 @@ function Feed() {
           username="Nawaraj Bhandari"
           visibilityIcon={<MdLock />}
           time="2 h ."
-          caption="Memories of PoonHill Trek !"
+          caption="SEE special Computer course !"
           image={feed2}
         />
       </div>
@@ -41,7 +41,7 @@ function Feed() {
           username="Routine of Nepal Banda"
           visibilityIcon={<MdSupervisedUserCircle />}
           time="32 m ."
-          caption=" Paras to Bharat Mani - मेरो या फन्नी फन्नी वाला हेरेको थिए रमाइलो लाग्यो !"
+          caption=" Urgent Help Needed ! - कोटेश्वरबाट बानेश्वरतर्फ जाने क्रममा राहदानी हराएको ऽ पाउनु हुनेले तुरुन्त देहाय बमोजिमकाे मोबाइलमा कल गरेर फिर्ता गरिदिनुहाेला !"
           image={feed3}
         />
       </div>
