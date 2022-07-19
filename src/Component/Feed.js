@@ -1,6 +1,10 @@
 import React from "react";
 import FeedElement from "./FeedElement";
 import "../Style/Feed.css";
+import feed1 from "../Images/feedImg/feed1.jpg";
+import feed2 from "../Images/feedImg/feed2.jpg";
+import feed3 from "../Images/feedImg/feed3.jpg";
+
 import {
   MdOutlinePublic,
   MdLock,
@@ -17,8 +21,8 @@ function Feed() {
           visibilityIcon={<MdOutlinePublic />}
           time="48 m ."
           caption="Thanks, Upwork
-          #toprated #upworksuccess"
-          image="https://media-exp1.licdn.com/dms/image/C4E22AQGkAmmogTDJwQ/feedshare-shrink_800/0/1623984697507?e=1638403200&v=beta&t=wa-KVaciRyOCKMmh87Vp7z10eXiqeH5-XyDhsbj-94g"
+          #toprated #upworksuccess #yay"
+          image={feed1}
         />
       </div>
       <div className="feed__single">
@@ -28,7 +32,7 @@ function Feed() {
           visibilityIcon={<MdLock />}
           time="2 h ."
           caption="Memories of PoonHill Trek !"
-          image="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/201029135_319541179896376_8425959480503348425_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=ukh_8lOSzE4AX9FdFAE&tn=FYN7DttBkK_wM3bo&_nc_ht=scontent.fktm9-2.fna&oh=f2596319ef69d7101143e2b0eeae1bf4&oe=619F8158"
+          image={feed2}
         />
       </div>
       <div className="feed__single">
@@ -38,7 +42,7 @@ function Feed() {
           visibilityIcon={<MdSupervisedUserCircle />}
           time="32 m ."
           caption=" Paras to Bharat Mani - मेरो या फन्नी फन्नी वाला हेरेको थिए रमाइलो लाग्यो !"
-          image="https://scontent.fktm9-2.fna.fbcdn.net/v/t1.6435-9/248878051_5471753906190691_3763621852582223930_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=UhsJ7zW78cAAX_tzNpJ&_nc_oc=AQmCWlGFbLLG6nw3BdjXU6ms5ebTv8M_2VNFQHLkWmhgRM-RWwJqgjUQapxOZ_5_V_Y&_nc_ht=scontent.fktm9-2.fna&oh=32a37b8f4dac47fa537364af8c7ab824&oe=61A12B92"
+          image={feed3}
         />
       </div>
     </div>

@@ -32,7 +32,7 @@ function FeedElement({
           <h4>{caption}</h4>
         </div>
         <div className="feed__image">
-          <img src={image} alt="caption" width="775px" height="650px" />
+          <img src={image} alt="caption" width="750px" height="auto" />
         </div>
       </div>
       <div className="feed__like__comment__share__container">
